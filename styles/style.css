@@ -26,7 +26,7 @@ body {
 }
 
 .content {
-    height: 100vh;
+    height: 35.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,9 +40,9 @@ body {
 
 .content__input__message {
     margin: 0 15% 0% 20%;
-    max-width: 800px;
-    height: 500px;
-    font-size: 40px;
+    max-width: 50rem;
+    height: 18.75rem;
+    font-size: 2rem;
     border: none; 
     background: none; 
     outline: none; 
@@ -62,10 +62,10 @@ body {
 
 .content__input__alert {
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
     margin-left: 20%;
     margin-top: 5%;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 500;
     color: var(--accent-color);
 }
@@ -77,17 +77,17 @@ body {
 .content__input__buttons {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
     margin: 1% 30% 0 20%;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 #encrypt {
     background-color: var(--tertiary-color);
     border: none;
     color: var(--white-color);
-    padding: 5.08% 26.1%;
-    border-radius: 20px;
+    padding: 4.08% 26.6%;
+    border-radius: 1.25rem;
 }
 
 #encrypt:hover {
@@ -96,10 +96,10 @@ body {
 
 #decrypt {
     background-color: var(--secondary-color);
-    border: 1px solid var(--tertiary-color);
+    border: 0.0625rem solid var(--tertiary-color);
     color: var(--tertiary-color);
-    padding: 4.85% 23.6%;
-    border-radius: 20px;
+    padding: 3.85% 23.6%;
+    border-radius: 1.25rem;
 }
 
 #decrypt:hover {
@@ -111,8 +111,8 @@ body {
     width: 23%;
     background-color: var(--white-color);
     color: var(--accent-color);
-    padding: 13% 1%;
-    border-radius: 24px; 
+    padding: 7.5% 1%;
+    border-radius: 1.5rem; 
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -126,20 +126,20 @@ body {
 
 .content__output__message__1 {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 1.75rem;
     margin-bottom: 3%;
 }
 
 .content__output__message__2 {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .content__result__output {
     margin: 0 2.5% 7% 0;
-    padding: 50px 0;
+    padding: 3.4rem 0;
     width: 23%;
     background-color: var(--white-color);
-    border-radius: 24px; 
+    border-radius: 1.5rem; 
     display: flex;
     flex-direction: column;
 }
@@ -154,10 +154,10 @@ body {
 }
 
 #resultMessage  {
-    margin: 2% 0 2% 8%;
-    height: 740px;
+    margin: 2% 0 8% 8%;
+    height: 25rem;
     width: 85%;
-    font-size: 24px;
+    font-size: 1.5rem;
     border: none; 
     background: none; 
     outline: none; 
@@ -176,10 +176,10 @@ body {
 
 #copyButton {
     background-color: var(--secondary-color);
-    border: 1px solid var(--tertiary-color);
+    border: 0.0625rem solid var(--tertiary-color);
     color: var(--tertiary-color);
     padding: 4.85% 35%;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     margin: 5% 0 0 10%;
 }
 
@@ -190,7 +190,7 @@ body {
 footer {
     background-color: var(--secondary-color);
     color: var(--accent-color);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     text-align: center;
     padding: 1% 0;
