@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <img class="icone" src="./assets/image2.png" alt="Vogal A de Alura.">
+    </header>
+    <main class="content">
+        <!-- Área para digitar o texto -->
+        <section class="content__input">
+            <textarea class="content__input__message" placeholder="Digite seu texto"></textarea>
+            <div class="content__input__alert">
+                <img class="content__input__alert__icon" src="./assets/icon.png" alt="Ponto de exclamação.">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="content__input__buttons">
+                <button id="encrypt" onclick="encryptButton">Criptografar</button>
+                <button id="decrypt" onclick="decryptButton">Descriptografar</button>
+            </div>
+        </section>
+        <!-- Área para exibir a falta de resultado -->
+        <section class="content__output">
+            <img class="content__output__image" src="./assets/image1.png" alt="Pessoa com uma lupa na mão observando um diamante à sua frente.">
+            <p class="content__output__message__1">Nenhuma mensagem encontrada</p>
+            <p class="content__output__message__2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </section>
+        <!-- Área para exibir o resultado -->
+        <section class="content__result__output">
+            <textarea id="resultMessage" placeholder="" readonly></textarea>
+            <button id="copyButton" onclick="copyButton">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Rayanne Silveira</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
